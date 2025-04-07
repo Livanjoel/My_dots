@@ -1,0 +1,32 @@
+--ignore-errors
+# --no-playlist
+
+# playlist
+--yes-playlist
+
+# Save in ~/Videos
+-o "~/Videos/%(channel)s/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s"
+
+# Prefer 720p or lower resolutions
+-f bestvideo[height<=?720]+bestaudio/best
+
+# aria2c
+--downloader aria2c
+--downloader-args '-c -j 3 -x 3 -s 3 -k 1M'
+
+# Tumbnail metadata   NOTE: require python library for metadata management 
+--embed-thumbnail
+
+# Subtitles
+--sub-langs "en.*,es.*"
+--write-auto-subs
+#NOTE: enable this for embed subs to the video no other srt files in directory
+#NOTE: the mkv embed subtitles not show onli enxternal 
+# --embed-subs
+# --merge-output-format mp4
+
+# Cokkies
+# --cookies-from-browser firefox
+
+-q #no verbose 
+--progress #progress bar whit no verbose 
