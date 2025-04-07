@@ -1,0 +1,14 @@
+# AUDIO format
+-x
+-f bestaudio
+-q #no verbose 
+--progress #progress bar whit no verbose 
+
+--yes-playlist
+
+#Output file
+-o "~/music/%(channel)s/%(playlist_index)s - %(title)s.%(ext)s" #same folder of Navidrome sacan
+
+# Adding metadata require package python-mutagen
+--add-metadata 
+--embed-thumbnail
