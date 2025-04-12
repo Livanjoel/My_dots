@@ -9,6 +9,6 @@
 #Output file
 -o "~/music/%(channel)s/%(playlist_index)s - %(title)s.%(ext)s" #same folder of Navidrome sacan
 
-# Adding metadata require package python-mutagen
+# Adding metadata require package python-mutagen package
 --add-metadata 
 --embed-thumbnail
