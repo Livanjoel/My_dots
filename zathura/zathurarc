@@ -1,13 +1,15 @@
 set font "CaskaydiaCove Nerd Font Mono"
-set recolor-lightcolor "rgba(0, 0, 0, 0)"
+set default-bg "#0D0E16"
+set recolor-lightcolor "#0D0E16"
 set recolor-darkcolor "rgba(255, 255, 255, 1)"
+set selection-clipboard "unnamedplus"
 map r recolor
+map i navigate_index
 set recolor true
 set adjust-open "best"
 set guioptions none
 map j feedkeys "<C-Down>"
 map k feedkeys "<C-Up>"
 map s toggle_statusbar
-set default-bg "#1A1B24"
-statusbar-bg "#1A1B24"
+statusbar-bg "#0D0E16"
 set adjust-open "best-fit"
