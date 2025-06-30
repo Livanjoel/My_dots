@@ -1,0 +1,22 @@
+font=CaskaydiaCove Nerd Font Mono 14
+background-color=#0D0E16
+width=300
+height=100
+margin=15
+# outer-margin=10
+border-size=3
+icons=0
+text-alignment=center
+border-color=#7FC8FF
+max-visible=2
+default-timeout=6000
+anchor=top-center
+border-radius=6
+
+
+[app-name="Telegram Desktop"]
+on-button-right=exec makoctl invoke mail-mark-read
+
+[urgency=critical]
+border-color=#FD1717
+border-size=5
