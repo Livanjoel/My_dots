@@ -1,0 +1,26 @@
+# GHOSTTY theme
+background = #0D0E16
+foreground = #CEDBE5
+cursor-color = #D8D8D8
+
+selection-background = #2A233D
+selection-foreground = #D8D8D8
+
+background-opacity = 1.0
+
+palette = 0=#1A1525
+palette = 1=#E77B2A
+palette = 2=#A55EF0
+palette = 3=#4DCC90
+palette = 4=#ED45B8
+palette = 5=#CC81F1
+palette = 6=#8AE849
+palette = 7=#D8D8D8
+palette = 8=#1F192B
+palette = 9=#E6964F
+palette = 10=#B888EA
+palette = 11=#81CEA9
+palette = 12=#EE66C3
+palette = 13=#D5A6F2
+palette = 14=#A8DE82
+palette = 15=#F2F2F2
